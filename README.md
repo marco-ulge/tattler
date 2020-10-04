@@ -1,5 +1,12 @@
 ## tattler
 
+tattler.py is a simple python tool designed to find secrets and sensitive information in source code, parsing all the files recursively from a given starting folder.
+
+This tool has been created with two purposes in mind:
+* Help uncovering sensitive information during Penetration Tests and Code Reviews
+* Help determining the Security posture in relation to Secrets Management
+
+The long term idea is to replace the heavy usage of regex in favor of ML.
 ___
 
 ### How to launch first scan
