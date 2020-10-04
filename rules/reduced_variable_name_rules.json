@@ -1,0 +1,8 @@
+{
+    "authkey": ".*[a|A][u|U][t|T][h|H][-_]?[k|K][e|E][y|Y].*",
+    "authtoken": ".*[a|A][u|U][t|T][h|H][-_]?[t|T][o|O][k|K][e|E][n|N].*",
+    "pwd": ".*[p|P][w|W][d|D].*",
+    "passwd": ".*[p|P][a|A][s|S][s|S][w|W][d|D].*",
+    "password": ".*[p|P][a|A][s|S][s|S][w|W][o|O][r|R][d|D].*",
+    "secret": ".*[s|S][e|E][c|C][r|R][e|E][t|T].*"
+}

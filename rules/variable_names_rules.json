@@ -1,0 +1,17 @@
+{
+  "Auth": ".*[a|A][u|U][t|T][h|H].*",
+  "Auth(0)": ".*[a|A][u|U][t|T][h|H][0]*",
+  "Bearer": ".*[b|B][e|E][a|A][r|R][e|E][r|R].*",
+  "ClientId": ".*[c|C][l|L][i|I][e|E][n|N][t|T][_-]*[i|I][d|D].*",
+  "Hash": ".*[h|H][a|A][s|S][h|H].*",
+  "Key": ".*[k|K][e|E][y|Y].*",
+  "Oauth(2)": ".*[o|O][a|A][u|U][t|T][h|H][2]*",
+  "Password": ".*[p|P][a|A][s|S][s|S][w|W][o|O]*[r|R]*[d|D].*",
+  "Passcode": ".*[p|P][a|A][s|S][s|S][c|C][o|O][d|D][e|E].*",
+  "PWD": ".*[p|P][w|W][d|D].*",
+  "Token": ".*[t|T][o|O][k|K][e|E][n|N].*",
+  "Salt": ".*[s|S][a|A][l|L][t|T]\\d.*$",
+  "Secret": ".*[s|S][e|E][c|C][r|R][e|E][t|T].*",
+  "User": ".*[u|U][s|S][e|E][r|R].*",
+  "Username": ".*[u|U][s|S][e|E][r|R][n|N][a|A][m|M][e|E].*"
+}

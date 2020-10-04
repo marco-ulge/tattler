@@ -1,0 +1,8 @@
+{
+  "Author": "(?i)AUTHOR",
+  "AWS ARN": "arn:aws:*",
+  "Language Code": "(?i)LANGUAGE[_-]*CODE",
+  "Private Key (Encrypted)": ".*-----BEGIN ENCRYPTED PRIVATE KEY-----.*",
+  "RSA Private Key (Encrypted)": "^Proc-Type: 4,ENCRYPTED$",
+  "Zip Code": "(?i)ZIP[_-]*CODE"
+}
