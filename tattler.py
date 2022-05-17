@@ -337,10 +337,7 @@ def parse_config_file(config_file_path):
     """
 
     config = configparser.ConfigParser()
-    if utils.does_exist(config_file_path):
-        config.read(config_file_path)
-    else:
-        raise Exception("The specified configuration file does not exist. Aborting.")
+    config.read(config_file_path)
 
     excluded_folders = []
     for key in config["EXCLUDED FOLDERS"]:
@@ -487,7 +484,6 @@ def main():
 
             if not (os.path.islink(dirpath + "/" + single_file)):
                 mime = magic.from_file(os.path.join(dirpath, single_file))
-                # TODO: would be better to translate all to lower case
                 if any(mimetype in allowed_mime for mimetype in allowed_mime):
                     print(" " * 100, end="\r")
                     print("Processing file {}".format(single_file),

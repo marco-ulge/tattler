@@ -44,7 +44,7 @@ tattler.py --config config/example.cfg --local-repo /path/to/repo --output-file 
 ```
 
 This file allows to exclude the following:
-* Folders (and subfolders)
+* Folders (and subfolders) - specify the relative part starting from the folder you want to scan
 * Variables (eg. "username")
 * Results which are known false positives
 
