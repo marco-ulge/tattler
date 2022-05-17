@@ -1,0 +1,6 @@
+mongoengine>=0.19.1
+GitPython>=3.1.7
+python-magic-debian-bin>=0.4.25; sys_platform == "linux"
+python-magic-bin>=0.4.14; sys_platform == "windows"
+python-magic>=0.4.24; sys_platform == "darwin"
+urllib3>=1.25.9
